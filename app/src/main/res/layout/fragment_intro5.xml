@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_anonymous"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/people1"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerInParent="true">
+
+        <com.mehdok.views.TextViewNormal
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro5_title"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_geral"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intro5_opt1"
+                        android:layout_gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorWhite"/>
+
+                </LinearLayout>
+
+                <com.github.angads25.toggle.LabeledSwitch
+                    android:id="@+id/toggleButton1"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:on="false"
+                    app:textOn="@string/id_yes"
+                    app:textOff="@string/id_no"
+                    app:colorBorder="#00000000"
+                    app:colorOn="@color/colorWhite"
+                    app:colorOff="@color/colorPrimary"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_comedia"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intro5_opt2"
+                        android:layout_gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorWhite"/>
+
+                </LinearLayout>
+
+                <com.github.angads25.toggle.LabeledSwitch
+                    android:id="@+id/toggleButton2"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:on="false"
+                    app:textOn="@string/id_yes"
+                    app:textOff="@string/id_no"
+                    app:colorBorder="#00000000"
+                    app:colorOn="@color/colorWhite"
+                    app:colorOff="@color/colorPrimary"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_tragico"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intro5_opt3"
+                        android:layout_gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorWhite"/>
+
+                </LinearLayout>
+
+                <com.github.angads25.toggle.LabeledSwitch
+                    android:id="@+id/toggleButton3"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:on="false"
+                    app:textOn="@string/id_yes"
+                    app:textOff="@string/id_no"
+                    app:colorBorder="#00000000"
+                    app:colorOn="@color/colorWhite"
+                    app:colorOff="@color/colorPrimary"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_adulto"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intro5_opt4"
+                        android:layout_gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorWhite"/>
+
+                </LinearLayout>
+
+                <com.github.angads25.toggle.LabeledSwitch
+                    android:id="@+id/toggleButton4"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:on="false"
+                    app:textOn="@string/id_yes"
+                    app:textOff="@string/id_no"
+                    app:colorBorder="#00000000"
+                    app:colorOn="@color/colorWhite"
+                    app:colorOff="@color/colorPrimary"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/icon_terror"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/intro5_opt5"
+                        android:layout_gravity="center"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorWhite"/>
+
+                </LinearLayout>
+
+                <com.github.angads25.toggle.LabeledSwitch
+                    android:id="@+id/toggleButton5"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:on="false"
+                    app:textOn="@string/id_yes"
+                    app:textOff="@string/id_no"
+                    app:colorBorder="#00000000"
+                    app:colorOn="@color/colorWhite"
+                    app:colorOff="@color/colorPrimary"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

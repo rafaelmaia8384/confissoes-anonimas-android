@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Confissões Anônimas</string>
+
+    <string name="dialog_wait">Aguarde...</string>
+    <string name="dialog_success">Sucesso</string>
+    <string name="dialog_sorry">Desculpe</string>
+
+    <string name="id_yes">Sim</string>
+    <string name="id_no">Não</string>
+
+    <string name="login_button1">Entrar</string>
+    <string name="login_button2">Fazer cadastro</string>
+
+    <string name="intro1_title">Confissões Anônimas</string>
+    <string name="intro1_content">Veja histórias impressionantes contadas por pessoas de todas as partes, mostrando fatos do cotidiano que nem sempre podemos compartilhar...</string>
+
+    <string name="intro2_title">Você confessaria algo?</string>
+    <string name="intro2_content">Nem sempre as pessoas estão dispostas a contar seus segredos. Você contaria um segredo de forma anônima?</string>
+    <string name="intro2_error1">Você deve estar disposto a publicar uma confissão para continuar.</string>
+
+    <string name="intro3_title">Termos de Uso</string>
+    <string name="intro3_content">Às vezes as confissões dos usuários não são agradáveis de se ver. Leia os termos de uso do aplicativo e fique ciente de tudo.</string>
+    <string name="intro3_button">Ver termos de Uso</string>
+    <string name="intro3_checkbox">Li e aceito os Termos de Uso.</string>
+    <string name="intro3_error1">Você deve aceitar os termos de uso do aplicativo para continuar.</string>
+
+    <string name="intro4_title">Receber avisos anônimos?</string>
+    <string name="intro4_content">Você pode receber um aviso se algum usuário passar perto de você. Dessa forma, poderá ver as confissões de pessoas ao seu redor.</string>
+    <string name="intro4_distance">Distância máxima</string>
+    <string name="intro4_error1">Para usar essa opção, você deve permitir que o aplicativo acesse o GPS do dispositivo.</string>
+
+    <string name="intro5_title">Assuntos do seu interesse</string>
+    <string name="intro5_opt1">Geral</string>
+    <string name="intro5_opt2">Comédia</string>
+    <string name="intro5_opt3">Trágico</string>
+    <string name="intro5_opt4">Adulto</string>
+    <string name="intro5_opt5">Terror</string>
+    <string name="intro5_error1">Selecione pelo menos um assunto do seu interesse.</string>
+
+</resources>

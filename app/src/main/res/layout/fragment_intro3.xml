@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_anonymous"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/people3"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerInParent="true">
+
+        <com.mehdok.views.TextViewNormal
+            android:layout_marginTop="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro3_title"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro3_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/buttonVerTermos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
+            android:text="@string/intro3_button"
+            android:theme="@style/PrimaryButton" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/intro3_checkbox"/>
+
+    </LinearLayout>
+
+</LinearLayout>

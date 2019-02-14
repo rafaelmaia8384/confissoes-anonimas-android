@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_anonymous"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/people4"
+            android:layout_gravity="bottom" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerInParent="true">
+
+        <com.mehdok.views.TextViewNormal
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro4_title"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro4_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"/>
+
+        <com.github.angads25.toggle.LabeledSwitch
+            android:id="@+id/toggleButtonGPS"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            app:on="false"
+            app:textOn="@string/id_yes"
+            app:textOff="@string/id_no"
+            app:colorBorder="#00000000"
+            app:colorOn="@color/colorWhite"
+            app:colorOff="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:id="@+id/layoutDistanciaMaxima"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="50 m"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorWhite"/>
+
+                <SeekBar
+                    android:id="@+id/seek_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:theme="@style/AppTheme"
+                    android:max="100"
+                    android:progress="50" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:layout_gravity="center_vertical"
+                    android:text="1000 m"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_gravity="center"
+                android:text="@string/intro4_distance"
+                android:textSize="11sp"
+                android:textColor="@color/colorWhite"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
